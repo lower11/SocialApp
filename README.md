@@ -4,7 +4,7 @@ View <=> Servlets <=> Model <=> Database
 
 To simply see the output of the program, go to com/social/app package in the src directory, and press play on the launch.java class
 
-Below I have highlighted how the various programs in my project contribute to the mvc framework. The user randomly chooses a bookmark, based on the probabilistic math function (in the view.java) class from the database, not consciously. If the user is a administrator he/she can also mark if it is childsafe. 
+Below I have highlighted how the various programs in my project contribute to the mvc framework. The user randomly chooses a bookmark such as movie, weblink that they want to view for later (as we do with normal bookmarks), based on the probabilistic math function (in the view.java) class from the database, not consciously. If the user is a administrator he/she can also mark if it is childsafe. 
 
 VIEW- Responsible for user interface (view and launch)
 
