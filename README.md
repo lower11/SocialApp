@@ -1,6 +1,6 @@
 This project is built in a Model View Controller (MVC) frame
 
-ViewServlets - Model - Database
+View <=> Servlets <=> Model <=> Database
 
 To simply see the output of the program, go to com/social/app package, and press play on the launch.java class
 
