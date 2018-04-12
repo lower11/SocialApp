@@ -2,7 +2,7 @@ This project is built in a Model View Controller (MVC) frame
 
 View <=> Servlets <=> Model <=> Database
 
-To simply see the output of the program, go to com/social/app package, and press play on the launch.java class
+To simply see the output of the program, go to com/social/app package in the src directory, and press play on the launch.java class
 
 Below I have highlighted how the various programs in my project contribute to the mvc framework.
 
