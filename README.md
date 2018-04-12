@@ -24,4 +24,4 @@ MODEL- methods to invoke data from database
 
 DATABASE- hard coded data in java files, in future we want to connect this to real database
  
--Everything in com.social.constants package is related to database
+-Everything in com.social.constants package is related to database such as the; types of books, movies, usertypes, genders, genres etc.
