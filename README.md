@@ -4,7 +4,7 @@ View <=> Servlets <=> Model <=> Database
 
 To simply see the output of the program, go to com/social/app package in the src directory, and press play on the launch.java class
 
-Below I have highlighted how the various programs in my project contribute to the mvc framework.
+Below I have highlighted how the various programs in my project contribute to the mvc framework. The user randomly chooses a bookmark, based on the probabilistic math function (in the view.java) class from the database, not consciously. If the user is a administrator he/she can also mark if it is childsafe. 
 
 VIEW- Responsible for user interface (view and launch)
 
@@ -16,7 +16,7 @@ SERVLETS- connect to the View invoke methods from the model that connect to the 
 
 -BookmarkController.java
 
--(UserManager/BookmarkManger).java it controls the business logic such as where the underlying logic for e.g ‘set’ name, title, director are set to the movie
+-(UserManager/BookmarkManger).java it controls the business logic such as where the underlying logic for e.g ‘set’ name, title, director and all other details are assigned to the movie
 
 MODEL- methods to invoke data from database
 
